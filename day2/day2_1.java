@@ -2,7 +2,6 @@ package day2;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.regex.Pattern;
 
 public class day2_1 {
     
@@ -17,7 +16,7 @@ public class day2_1 {
 
         String[] ranges = inp.split(",");
         long total = 0;
-        
+
         for (String range : ranges) {
 
             String[] startEnd = range.split("-");
