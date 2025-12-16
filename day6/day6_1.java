@@ -47,7 +47,7 @@ public class day6_1 {
 
         long end = System.nanoTime();
 
-        System.out.println(total);
+        System.out.println(total); // answer: 5316572080628
         System.out.printf("Time: %.3f ms%n", (end - start) / 1_000_000.0);
     }
 }

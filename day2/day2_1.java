@@ -23,14 +23,6 @@ public class day2_1 {
             long start = Long.parseLong(startEnd[0]);
             long end = Long.parseLong(startEnd[1]);
 
-            // Pattern p = Pattern.compile("^(\\d+)\\1$");
-            // for (long i = start; i <= end; i++) {
-            //     String num = String.valueOf(i);
-            //     if (p.matcher(num).matches()) {
-            //         total += i;
-            //     }
-            // }
-
             int startLength = startEnd[0].length();
             int endLength = startEnd[1].length();
 
@@ -60,6 +52,6 @@ public class day2_1 {
             }
         }
 
-        System.out.println(total);
+        System.out.println(total); // answer: 40398804950
     }
 }

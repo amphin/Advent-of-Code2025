@@ -48,7 +48,7 @@ public class day5_2 {
 
         long end = System.nanoTime();
 
-        System.out.println(freshCount);
+        System.out.println(freshCount); // answer: 344260049617193
         System.out.printf("Time: %.3f ms%n", (end - start) / 1_000_000.0);
     }
 }

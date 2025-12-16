@@ -15,7 +15,6 @@ public class day2_2 {
             e.printStackTrace();
         }
         String[] ranges = inp.split(",");
-        System.out.println(ranges.length);
 
         long total = 0;
         for (String range : ranges) {
@@ -33,6 +32,6 @@ public class day2_2 {
             }
         }
 
-        System.out.println(total);
+        System.out.println(total); // answer: 65794984339
     }
 }

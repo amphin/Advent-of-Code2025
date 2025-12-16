@@ -39,7 +39,7 @@ public class day1_2 {
             }
         }
         
-        System.out.println(password);
+        System.out.println(password); // answer: 6133
     }
 
 }

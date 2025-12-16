@@ -30,7 +30,7 @@ public class day3_2 {
             }
             total += Long.parseLong(new String(num));
         }
-        System.out.println(total);
+        System.out.println(total); // answer: 171419245422055
     }
 
     public static int findHighest(int start, String digits, int offset) {

@@ -27,7 +27,7 @@ public class day1_1 {
             if (point % 100 == 0) password++;
         }
         
-        System.out.println(password);
+        System.out.println(password); // answer: 992
     }
 
 }

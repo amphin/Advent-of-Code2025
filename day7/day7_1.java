@@ -45,7 +45,7 @@ public class day7_1 {
 
         long end = System.nanoTime();
 
-        System.out.println(count);
+        System.out.println(count); // answer: 1585
         System.out.printf("Time: %.3f ms%n", (end - start) / 1_000_000.0);
     }
 

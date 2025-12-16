@@ -52,7 +52,7 @@ public class day7_2 {
 
         long end = System.nanoTime();
 
-        System.out.println(totalTimelines);
+        System.out.println(totalTimelines); // answer: 16716444407407
         System.out.printf("Time: %.3f ms%n", (end - start) / 1_000_000.0);
     }
    

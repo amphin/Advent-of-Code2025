@@ -27,7 +27,6 @@ public class day6_2 {
             for (String line : lines) {
                 int firstSpace = line.indexOf(" ", i);
                 if (firstSpace == -1) {
-                    // System.out.println("maxLength = -1");
                     maxLength = lines.get(0).length();
                     break;
                 }
@@ -67,7 +66,7 @@ public class day6_2 {
 
         long end = System.nanoTime();
 
-        System.out.println(total);
+        System.out.println(total); // answer: 11299263623062
         System.out.printf("Time: %.3f ms%n", (end - start) / 1_000_000.0);
     }
 }
