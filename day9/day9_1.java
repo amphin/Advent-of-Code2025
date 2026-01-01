@@ -3,11 +3,9 @@ package day9;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.Set;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.HashSet;
 
 public class day9_1 {
     
@@ -35,24 +33,6 @@ public class day9_1 {
         long start = System.nanoTime();
 
         Arrays.sort(points, Comparator.comparingInt((Point p) -> p.x()).thenComparingInt((Point p) -> p.y()));
-        // for (Point p : points) {
-        //     System.out.println(p);
-        // }
-
-        // Set<Point> pointSet = new HashSet<>(Arrays.asList(points));
-
-        // for (int y = 0; y <= maxY + 1; y++) {
-        //     for (int x = 0; x <= maxX + 1; x++) {
-        //         if (pointSet.contains(new Point(x, y))) {
-        //             System.out.print("#");
-        //         } else {
-        //             System.out.print(".");
-        //         }
-        //     }
-        //     System.out.println();
-        // }
-
-
 
         long maxArea = 0;
         for (int i = 0; i < points.length; i++) {
